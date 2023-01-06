@@ -1,0 +1,14 @@
+.LogArea {
+  padding: 20px;
+}
+
+.logo {
+  font-size:25px;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+  display:flex;
+  align-items: center;
+}
+.logoImg {
+  padding-bottom: 6px;
+}

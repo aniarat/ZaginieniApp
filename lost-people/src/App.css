@@ -1,0 +1,292 @@
+.signBox {
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  color: crimson;
+  width: 76%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  z-index: 10;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImg {
+  padding-bottom: 6px;
+}
+
+a {
+  cursor: pointer;
+}
+
+body {
+  /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/217/806/original/red-watercolor-animated-abstract-background-free-video.jpg"); */
+  background-image: url("https://img.freepik.com/premium-photo/dry-river-sand-explosion-brown-color-sand-splash-against-white-background_36326-3841.jpg?w=2000");
+  /* background-image: url("https://wallpaperaccess.com/full/358818.jpg"); GIT */
+  /* background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.15752-9/316167526_467035098892120_117165852287918546_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lKL_urFIuRAAX8JmDvs&_nc_ht=scontent-frt3-1.xx&oh=03_AdSfFuaHgJ_EZTxP31RfF1y6NK8W1hvNo2TKI55JjDrs4w&oe=63A69781");  */
+  /* background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t1.15752-9/316164757_1763596090679876_9107408108459711083_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=xej-mZ-7JfkAX_eMvMu&_nc_ht=scontent-frt3-1.xx&oh=03_AdQ6lBnUAUdQr8XPOz-ZyBe6NtgpeZxQKt2KyFwptUayCg&oe=63A6C6BA");  */
+
+  
+/* background-position:top; */
+/* background-position:right; */
+background-position: 90% 10%;
+/* background-size: contain; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  /* background-image: url("https://img.freepik.com/vetores-premium/fundo-abstrato-aquarela-cinza-suave_3590-173.jpg?w=2000");
+  background-image: url("https://img.freepik.com/premium-photo/abstract-art-background-navy-blue-colors-watercolor-painting-canvas-with-turquoise-pattern-sea-waves_113767-2956.jpg?w=1060");
+  background-image: url("https://totalcms.wpcdn.pl/articles/125c059ab13448883a49122d382cc040.jpeg"); */
+}
+
+/* .submitForm {
+  color: black;
+  background: #fff;
+} */
+
+.signBtn {
+  padding-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.slideMenu {
+  font-weight: 600;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logOut {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.photos {
+  width: 110px;
+}
+
+.homeMissingList {
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  color: black;
+  width: 85%;
+}
+
+.missingContent {
+  display: flex;
+  z-index: -1;
+}
+
+.adminBtnsCard {
+  display: flex;
+  padding-top: 20px;
+  justify-content:space-around;
+} 
+.statusBtn {
+  display: flex;
+  padding-top: 20px;
+  justify-content:space-between;
+} 
+.adminBtnsPersonal {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+
+.personalPageDetails {
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  color: black;
+  width: 85%;
+  text-align: center;
+}
+
+.homeMissingText {
+  padding-left: 10px;
+  font-size: small;
+}
+
+.topSlider {
+  z-index: 12;
+  /* border: 3px;
+  border-color: red;
+  border-style: solid; */
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.leaflet-container {
+  height: 300px;
+  width: 100%;
+}
+
+.warning {
+  /* color: darkred; */
+  color: black;
+  font-size: small;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.custom-select {
+  border-radius: 20px;
+}
+
+.formBox {
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  color: crimson;
+  width: 85%;
+  /* z-index: -1; */
+}
+
+.navCss {
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  /* border: 1px;
+  border-color: grey;
+  border-style: solid; */
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.6);
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.navBox {
+  padding-bottom: 72px;
+}
+
+.ageFilter {
+  display: flex; 
+  align-items: baseline;  
+}
+.age-filter {
+  display: flex; 
+  padding: 0px 5px 0px 5px;
+}
+
+.filter-btn{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding: 2% 7.5% 0px 7.5%;
+  z-index: 10;
+}
+
+a {
+  color: crimson;  
+}
+a:link {
+  color: crimson;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* .btn-danger {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #dc3545;
+  --bs-btn-border-color: #dc3545;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #bb2d3b;
+  --bs-btn-hover-border-color: #b02a37;
+  --bs-btn-focus-shadow-rgb: 225, 83, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #b02a37;
+  --bs-btn-active-border-color: #a52834;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
+} */
+
+.custom-select ::content{
+  border-radius: 20px;
+}
+.searchBox {
+  display:flex;
+  padding: 5px;
+  flex: 1;
+}
+.userSearch {
+  display:flex;
+  flex: 1;
+}
+
+.modal-content{
+  border-radius: 20px;
+}
+
+#photoFile {
+  width: 100%;
+}
+
+.dropdown-menu {
+  border-radius: 20px;
+}
+
+#accept {
+  color: green;
+}
+
+#reject {
+  color: red;
+}
